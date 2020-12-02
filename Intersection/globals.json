@@ -1,0 +1,8 @@
+{
+  "topology": [{
+    "search_radius": 15
+  }],
+  "max_cars": 5,
+  "max_x": 35,
+  "max_y": 26
+}
