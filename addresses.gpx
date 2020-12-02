@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gpx version="1.1" creator="GPS Visualizer https://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="37.760351" lon="-122.507798">
+  <name>4244 Judah Street San Francisco,</name>
+  <desc>4244 Judah St, San Francisco, San Francisco, CA, US</desc>
+</wpt>
+<wpt lat="37.760467" lon="-122.505079">
+  <name>4000 Judah Street San Francisco</name>
+  <desc>4000 Judah St, San Francisco, San Francisco, CA, US</desc>
+</wpt>
+<wpt lat="37.849074" lon="-122.295394">
+  <name>4400 Shellmound St Berkeley,</name>
+  <desc>[698 - 698] Shellmound St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879541" lon="-122.302624">
+  <name>1238 5th St Berkeley,</name>
+  <desc>1238 5th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.887768" lon="-87.913181">
+  <name>1555 40th St Berkeley,</name>
+  <desc>Berkeley, Cook County, IL, US</desc>
+</wpt>
+<wpt lat="37.88384" lon="-122.308142">
+  <name>1057 Eastshore Hwy Berkeley,</name>
+  <desc>1057 Eastshore Hwy, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.849074" lon="-122.295394">
+  <name>5616 Bay St Berkeley,</name>
+  <desc>[698 - 698] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.867881" lon="-122.258463">
+  <name>2510 Durant Ave Berkeley,</name>
+  <desc>2510 Durant Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.866924" lon="-122.267772">
+  <name>2338 Shattuck Ave Berkeley,</name>
+  <desc>2338 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.858608" lon="-122.253204">
+  <name>2840 College Ave Berkeley,</name>
+  <desc>2840 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868393" lon="-122.300136">
+  <name>1901 Fourth St Berkeley,</name>
+  <desc>1901 Fourth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.887526" lon="-122.305307">
+  <name>3288 Pierce St Berkeley,</name>
+  <desc>[940 - 998] Pierce St, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848932" lon="-122.295351">
+  <name>5959 Shellmound St Berkeley,</name>
+  <desc>[699 - 699] Shellmound St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.854369" lon="-122.270429">
+  <name>1937 Ashby Ave Berkeley,</name>
+  <desc>1937 Ashby Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851856" lon="-122.288156">
+  <name>1065 Ashby Ave Berkeley,</name>
+  <desc>1065 Ashby Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870652" lon="-122.27958">
+  <name>1600 University Ave Berkeley,</name>
+  <desc>1600 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868963" lon="-122.299856">
+  <name>750 Hearst Ave Berkeley,</name>
+  <desc>750 Hearst Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="38.750032" lon="-90.335165">
+  <name>470A 49th St Berkeley,</name>
+  <desc>Berkeley, St. Charles County, MO, US</desc>
+</wpt>
+<wpt lat="37.852889" lon="-122.260091">
+  <name>4075 Telegraph Ave Berkeley,</name>
+  <desc>[3181 - 3299] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868115" lon="-122.259059">
+  <name>2332 Telegraph Ave Berkeley,</name>
+  <desc>2332 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="38.750032" lon="-90.335165">
+  <name>4801 Central Ave Berkeley,</name>
+  <desc>Berkeley, St. Charles County, MO, US</desc>
+</wpt>
+<wpt lat="37.859595" lon="-122.269376">
+  <name>2727 Milvia St Berkeley,</name>
+  <desc>2727 Milvia St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.866919" lon="-122.258812">
+  <name>2398 Telegraph Ave Berkeley,</name>
+  <desc>2398 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870173" lon="-122.300712">
+  <name>1834 4th St Berkeley,</name>
+  <desc>1834 4th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5640 College Ave Berkeley,</name>
+  <desc>[3202 - 3298] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.864898" lon="-122.258451">
+  <name>2513 Telegraph Ave Berkeley,</name>
+  <desc>2513 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.849074" lon="-122.295394">
+  <name>5606 Bay St Berkeley,</name>
+  <desc>[698 - 698] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891066" lon="-122.284865">
+  <name>1564 Solano Ave Berkeley,</name>
+  <desc>1564 Solano Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.86975" lon="-122.300572">
+  <name>1809B 4th St Berkeley,</name>
+  <desc>1809 4th St, #B, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869562" lon="-122.267871">
+  <name>2187 Shattuck Ave Berkeley,</name>
+  <desc>2187 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.849074" lon="-122.295394">
+  <name>5630 Bay St Berkeley,</name>
+  <desc>[698 - 698] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890539" lon="-122.294253">
+  <name>1240 Solano Ave Berkeley,</name>
+  <desc>1240 Solano Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.857879" lon="-122.253133">
+  <name>2926 College Ave Berkeley,</name>
+  <desc>2926 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.85289" lon="-122.260183">
+  <name>5010 Telegraph Ave Berkeley,</name>
+  <desc>[3184 - 3298] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.857322" lon="-122.25308">
+  <name>2951 College Ave Berkeley,</name>
+  <desc>2951 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.80752" lon="-81.206579">
+  <name>5795 Christie Ave Berkeley,</name>
+  <desc>[29 - 100] Christie Ln, Beckley, Raleigh, WV, US</desc>
+</wpt>
+<wpt lat="37.870152" lon="-122.300705">
+  <name>1836 4th St Berkeley,</name>
+  <desc>1836 4th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.85289" lon="-122.260183">
+  <name>4926 Telegraph Ave Berkeley,</name>
+  <desc>[3184 - 3298] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5488 College Ave Berkeley,</name>
+  <desc>[3202 - 3298] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.867651" lon="-122.258961">
+  <name>2350 Telegraph Ave Berkeley,</name>
+  <desc>2350 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.871501" lon="-122.301134">
+  <name>1730 4th St Berkeley,</name>
+  <desc>1730 4th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868829" lon="-122.258277">
+  <name>2530 Bancroft Way Berkeley,</name>
+  <desc>2530 Bancroft Way, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870289" lon="-122.300748">
+  <name>1787 Fourth St Berkeley,</name>
+  <desc>1787 Fourth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869058" lon="-122.270455">
+  <name>1455 64th St Berkeley,</name>
+  <desc>Berkeley, Alameda County, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5461 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.856373" lon="-122.250581">
+  <name>4266 Piedmont Ave Berkeley,</name>
+  <desc>[2948 - 2998] Piedmont Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5453 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848932" lon="-122.295351">
+  <name>5905 Shellmound St Berkeley,</name>
+  <desc>[699 - 699] Shellmound St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.880266" lon="-122.269032">
+  <name>2100 Vine St Berkeley,</name>
+  <desc>2100 Vine St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879558" lon="-122.295579">
+  <name>1338 San Pablo Ave Berkeley,</name>
+  <desc>1338 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.864967" lon="-122.258684">
+  <name>2510 Telegraph Ave Berkeley,</name>
+  <desc>2510 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.880285" lon="-122.268884">
+  <name>2116 Vine St Berkeley,</name>
+  <desc>2116 Vine St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891269" lon="-122.281209">
+  <name>1741 Solano Ave Berkeley,</name>
+  <desc>1741 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.864933" lon="-122.25845">
+  <name>2509 Telegraph Ave Berkeley,</name>
+  <desc>2509 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.887768" lon="-87.913181">
+  <name>482A 49th St Berkeley,</name>
+  <desc>Berkeley, Cook County, IL, US</desc>
+</wpt>
+<wpt lat="37.857647" lon="-122.253111">
+  <name>2937 College Ave Berkeley,</name>
+  <desc>2937 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891329" lon="-122.280042">
+  <name>1797 Solano Ave Berkeley,</name>
+  <desc>1797 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.867556" lon="-122.258941">
+  <name>2360 Telegraph Ave Berkeley,</name>
+  <desc>2360 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5523 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.852889" lon="-122.260091">
+  <name>6603 Telegraph Ave Berkeley,</name>
+  <desc>[3181 - 3299] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869001" lon="-122.299662">
+  <name>740 Hearst Ave Berkeley,</name>
+  <desc>740 Hearst Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.862655" lon="-122.267141">
+  <name>2573 Shattuck Ave Berkeley,</name>
+  <desc>2573 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.865015" lon="-122.258782">
+  <name>2506 Telegraph Ave Berkeley,</name>
+  <desc>2506 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869246" lon="-122.291407">
+  <name>1111 University Ave Berkeley,</name>
+  <desc>1111 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.80752" lon="-81.206579">
+  <name>5719 Christie Ave Berkeley,</name>
+  <desc>[29 - 100] Christie Ln, Beckley, Raleigh, WV, US</desc>
+</wpt>
+<wpt lat="37.8707" lon="-122.27198">
+  <name>1935 Addison St Berkeley,</name>
+  <desc>1935 Addison St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.854819" lon="-122.268947">
+  <name>3017 Adeline St Berkeley,</name>
+  <desc>3017 Adeline St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.887761" lon="-122.30179">
+  <name>2000-8000 El Cerrito Plz Berkeley,</name>
+  <desc>[946 - 998] Cerrito St, EL, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891049" lon="-122.285185">
+  <name>1575 Solano Ave Berkeley,</name>
+  <desc>1575 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5901 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879451" lon="-122.300901">
+  <name>843 Gilman St Berkeley,</name>
+  <desc>843 Gilman St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.867637" lon="-122.260341">
+  <name>2440 Durant Ave Berkeley,</name>
+  <desc>2440 Durant Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.865042" lon="-122.267562">
+  <name>2440 Shattuck Ave Berkeley,</name>
+  <desc>2440 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.85289" lon="-122.260183">
+  <name>4920 Telegraph Ave Berkeley,</name>
+  <desc>[3184 - 3298] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.882115" lon="-122.269491">
+  <name>1385 Shattuck Ave Berkeley,</name>
+  <desc>1385 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.85289" lon="-122.260183">
+  <name>5032 Telegraph Ave Berkeley,</name>
+  <desc>[3184 - 3298] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.850297" lon="-122.286142">
+  <name>10313 San Pablo Ave Berkeley,</name>
+  <desc>[6701 - 6799] San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5451 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.865027" lon="-122.25845">
+  <name>2505 Telegraph Ave Berkeley,</name>
+  <desc>2505 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.887768" lon="-87.913181">
+  <name>105 San Pablo Towne Ctr Berkeley,</name>
+  <desc>Berkeley, Cook County, IL, US</desc>
+</wpt>
+<wpt lat="38.078899" lon="-78.486702">
+  <name>69 Bolinas Rd Berkeley,</name>
+  <desc>Berkeley, Albemarle County, VA, US</desc>
+</wpt>
+<wpt lat="37.86557" lon="-122.258531">
+  <name>2476 Telegraph Ave Berkeley,</name>
+  <desc>2476 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.846583" lon="-94.102458">
+  <name>1822 Fourth St Berkeley,</name>
+  <desc>1822 4th St, Berkley, Dallas, IA, US</desc>
+</wpt>
+<wpt lat="37.880297" lon="-122.268797">
+  <name>2120 Vine St Berkeley,</name>
+  <desc>2120 Vine St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.875162" lon="-122.2688">
+  <name>1778 Shattuck Ave Berkeley,</name>
+  <desc>1778 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.8509" lon="-122.252431">
+  <name>3212 College Ave Berkeley,</name>
+  <desc>3212 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869058" lon="-122.270455">
+  <name>1307 61st St Berkeley,</name>
+  <desc>Berkeley, Alameda County, CA, US</desc>
+</wpt>
+<wpt lat="37.848616" lon="-122.272382">
+  <name>1757 Alcatraz Ave Berkeley,</name>
+  <desc>1757 Alcatraz Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.88036" lon="-122.269249">
+  <name>1491 Shattuck Ave Berkeley,</name>
+  <desc>1491 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.871875" lon="-122.270145">
+  <name>2018 University Ave Berkeley,</name>
+  <desc>2018 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.80752" lon="-81.206579">
+  <name>5769 Christie Ave Berkeley,</name>
+  <desc>[29 - 100] Christie Ln, Beckley, Raleigh, WV, US</desc>
+</wpt>
+<wpt lat="37.866483" lon="-122.267589">
+  <name>2349 Shattuck Ave Berkeley,</name>
+  <desc>2349 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.856956" lon="-122.253704">
+  <name>2632 Ashby Ave Berkeley,</name>
+  <desc>2632 Ashby Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.858338" lon="-122.243894">
+  <name>2942 Domingo Ave Berkeley,</name>
+  <desc>2942 Domingo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.866621" lon="-122.258749">
+  <name>2416 Telegraph Ave Berkeley,</name>
+  <desc>2416 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5290 College Ave Berkeley,</name>
+  <desc>[3202 - 3298] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890458" lon="-122.298923">
+  <name>863A San Pablo Ave Berkeley,</name>
+  <desc>863 San Pablo Ave, #A, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891271" lon="-122.281169">
+  <name>1747 Solano Ave Berkeley,</name>
+  <desc>1747 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5511 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.875772" lon="-122.268862">
+  <name>1746 Shattuck Ave Berkeley,</name>
+  <desc>1746 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879298" lon="-122.29787">
+  <name>1329 Ninth St Berkeley,</name>
+  <desc>1329 Ninth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879477" lon="-122.296727">
+  <name>1326 10th St Berkeley,</name>
+  <desc>1326 10th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.89147" lon="-122.277477">
+  <name>1783 Solano Ave Berkeley,</name>
+  <desc>1783 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.846512" lon="-122.274457">
+  <name>1585 62nd St Berkeley,</name>
+  <desc>1585 62nd St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890945" lon="-122.286969">
+  <name>1519 Solano Ave Berkeley,</name>
+  <desc>1519 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5303 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5709 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.887768" lon="-87.913181">
+  <name>421 40th St Berkeley,</name>
+  <desc>Berkeley, Cook County, IL, US</desc>
+</wpt>
+<wpt lat="41.887768" lon="-87.913181">
+  <name>484 49th St Berkeley,</name>
+  <desc>Berkeley, Cook County, IL, US</desc>
+</wpt>
+<wpt lat="37.850297" lon="-122.286142">
+  <name>9925 San Pablo Ave Berkeley,</name>
+  <desc>[6701 - 6799] San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.873159" lon="-122.268556">
+  <name>1934 Shattuck Ave Berkeley,</name>
+  <desc>1934 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.864157" lon="-122.297661">
+  <name>2245 Fifth St Berkeley,</name>
+  <desc>2245 Fifth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.87567" lon="-122.273478">
+  <name>1708A Martin Luther King Jr Way Berkeley,</name>
+  <desc>1708 Martin Luther King Jr Way, #A, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.852889" lon="-122.260091">
+  <name>4915 Telegraph Ave Berkeley,</name>
+  <desc>[3181 - 3299] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869597" lon="-122.292385">
+  <name>1966 San Pablo Ave Berkeley,</name>
+  <desc>1966 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5414 College Ave Berkeley,</name>
+  <desc>[3202 - 3298] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879476" lon="-122.300772">
+  <name>841 Gilman St Berkeley,</name>
+  <desc>841 Gilman St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.89113" lon="-122.283693">
+  <name>1631 Solano Ave Berkeley,</name>
+  <desc>1631 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.856526" lon="-122.252998">
+  <name>2981 College Ave Berkeley,</name>
+  <desc>2981 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.8657" lon="-122.291126">
+  <name>2236 San Pablo Ave Berkeley,</name>
+  <desc>2236 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891302" lon="-122.280569">
+  <name>1774 Solano Ave Berkeley,</name>
+  <desc>1774 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.878584" lon="-122.295267">
+  <name>1404 San Pablo Ave Berkeley,</name>
+  <desc>1404 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.865451" lon="-122.310259">
+  <name>225 University Ave Berkeley,</name>
+  <desc>225 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.877345" lon="-122.269043">
+  <name>1652 Shattuck Ave Berkeley,</name>
+  <desc>1652 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.857833" lon="-122.253128">
+  <name>2928 College Ave Berkeley,</name>
+  <desc>2928 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.879966" lon="-122.29558">
+  <name>1325 San Pablo Ave Berkeley,</name>
+  <desc>1325 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890613" lon="-122.292971">
+  <name>1286 Solano Ave Berkeley,</name>
+  <desc>1286 Solano Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.862804" lon="-122.298355">
+  <name>2301 4th St Berkeley,</name>
+  <desc>2301 4th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.880301" lon="-122.268762">
+  <name>2111 Vine St Berkeley,</name>
+  <desc>2111 Vine St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868683" lon="-122.303911">
+  <name>1825 Eastshore Hwy Berkeley,</name>
+  <desc>1825 Eastshore Hwy, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870123" lon="-122.292391">
+  <name>1941 San Pablo Ave Berkeley,</name>
+  <desc>1941 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.87886" lon="-122.303806">
+  <name>725 Gilman St Berkeley,</name>
+  <desc>725 Gilman St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870096" lon="-122.283932">
+  <name>1414 University Ave Berkeley,</name>
+  <desc>1414 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.875967" lon="-122.301505">
+  <name>1439 5th St Berkeley,</name>
+  <desc>1439 5th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.857322" lon="-122.25308">
+  <name>2950 College Ave Berkeley,</name>
+  <desc>2950 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.874221" lon="-122.293722">
+  <name>1649 San Pablo Ave Berkeley,</name>
+  <desc>1649 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869675" lon="-122.26786">
+  <name>2175 Shattuck Ave Berkeley,</name>
+  <desc>2175 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891434" lon="-122.27809">
+  <name>1865 Solano Ave Berkeley,</name>
+  <desc>1865 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.849306" lon="-122.271296">
+  <name>3258 Adeline St Berkeley,</name>
+  <desc>3258 Adeline St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868774" lon="-122.293509">
+  <name>1038 University Ave Berkeley,</name>
+  <desc>1038 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>6050 College Ave Berkeley,</name>
+  <desc>[3202 - 3298] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870285" lon="-122.283335">
+  <name>1443 University Ave Berkeley,</name>
+  <desc>1443 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870515" lon="-122.266532">
+  <name>2168 Center St Berkeley,</name>
+  <desc>2168 Center St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.880274" lon="-122.268972">
+  <name>2112B Vine St Berkeley,</name>
+  <desc>2112 Vine St, #B, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891378" lon="-122.279075">
+  <name>1831 Solano Ave Berkeley,</name>
+  <desc>1831 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870483" lon="-122.30081">
+  <name>1810 Fourth St Berkeley,</name>
+  <desc>1810 Fourth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.872006" lon="-122.269801">
+  <name>2037 University Ave Berkeley,</name>
+  <desc>2037 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.866733" lon="-122.258773">
+  <name>2410 Telegraph Ave Berkeley,</name>
+  <desc>2410 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5525 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.864994" lon="-122.258731">
+  <name>2508 Telegraph Ave Berkeley,</name>
+  <desc>2508 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891395" lon="-122.278778">
+  <name>1845 Solano Ave Berkeley,</name>
+  <desc>1845 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.875868" lon="-122.2603">
+  <name>1804 Euclid Ave Berkeley,</name>
+  <desc>1804 Euclid Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869252" lon="-122.304106">
+  <name>1823 Eastshore Hwy, Berkeley,</name>
+  <desc>1823 Eastshore Hwy, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.871086" lon="-122.301002">
+  <name>1717 Fourth St Berkeley,</name>
+  <desc>1717 Fourth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890405" lon="-122.296608">
+  <name>1178 Solano Ave Berkeley,</name>
+  <desc>1178 Solano Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869415" lon="-122.300462">
+  <name>1840 Fourth St Berkeley,</name>
+  <desc>1840 Fourth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868639" lon="-122.259173">
+  <name>2305 Telegraph Ave Berkeley,</name>
+  <desc>2305 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5509 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.856976" lon="-122.253546">
+  <name>2629 Ashby Ave Berkeley,</name>
+  <desc>2629 Ashby Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.857855" lon="-122.253131">
+  <name>2921 College Ave Berkeley,</name>
+  <desc>2921 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.852889" lon="-122.260091">
+  <name>6395 Telegraph Ave Berkeley,</name>
+  <desc>[3181 - 3299] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851026" lon="-122.28364">
+  <name>1284 San Pablo Ave Berkeley,</name>
+  <desc>1284 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.852889" lon="-122.260091">
+  <name>6421 Telegraph Ave Berkeley,</name>
+  <desc>[3181 - 3299] Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868967" lon="-122.300313">
+  <name>1829 4th St Berkeley,</name>
+  <desc>1829 4th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869785" lon="-122.300584">
+  <name>1808 Fourth St Berkeley,</name>
+  <desc>1808 Fourth St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890972" lon="-122.286503">
+  <name>1535 Solano Ave Berkeley,</name>
+  <desc>1535 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.874307" lon="-122.29375">
+  <name>1643 San Pablo Ave Berkeley,</name>
+  <desc>1643 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.887761" lon="-122.30179">
+  <name>6000 El Cerrito Plz Berkeley,</name>
+  <desc>[946 - 998] Cerrito St, EL, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.87743" lon="-122.294894">
+  <name>1442 San Pablo Ave Berkeley,</name>
+  <desc>1442 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870822" lon="-122.278251">
+  <name>1680 University Ave Berkeley,</name>
+  <desc>1680 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.846047" lon="-94.102456">
+  <name>1805 Fourth St Berkeley,</name>
+  <desc>1805 4th St, Berkley, Dallas, IA, US</desc>
+</wpt>
+<wpt lat="37.874624" lon="-122.293854">
+  <name>1621 San Pablo Ave Berkeley,</name>
+  <desc>1621 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5937 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869491" lon="-122.299379">
+  <name>1827 5th St Berkeley,</name>
+  <desc>1827 5th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="38.078899" lon="-78.486702">
+  <name>484C 49th St Berkeley,</name>
+  <desc>Berkeley, Albemarle County, VA, US</desc>
+</wpt>
+<wpt lat="38.078899" lon="-78.486702">
+  <name>105 San Pablo Towne Ctr Berkeley,</name>
+  <desc>Berkeley, Albemarle County, VA, US</desc>
+</wpt>
+<wpt lat="37.868415" lon="-122.2678">
+  <name>2257 Shattuck Ave Berkeley,</name>
+  <desc>2257 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.865842" lon="-122.258586">
+  <name>2455 Telegraph Ave Berkeley,</name>
+  <desc>2455 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.858001" lon="-122.253145">
+  <name>2917 College Ave Berkeley,</name>
+  <desc>2917 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.849197" lon="-122.28566">
+  <name>6624 San Pablo Ave Berkeley,</name>
+  <desc>6624 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.857461" lon="-122.253093">
+  <name>2945 College Ave Berkeley,</name>
+  <desc>2945 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890727" lon="-122.290862">
+  <name>1361 Solano Ave Berkeley,</name>
+  <desc>1361 Solano Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.86007" lon="-122.28931">
+  <name>2530 San Pablo Ave Berkeley,</name>
+  <desc>2530 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848606" lon="-122.272458">
+  <name>1734 Alcatraz Ave Berkeley,</name>
+  <desc>1734 Alcatraz Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.858344" lon="-122.253178">
+  <name>2907 College Ave Berkeley,</name>
+  <desc>2907 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.89146" lon="-122.296543">
+  <name>847 Cornell Ave Berkeley,</name>
+  <desc>847 Cornell Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869058" lon="-122.270455">
+  <name>69 Bolinas Rd Berkeley,</name>
+  <desc>Berkeley, Alameda County, CA, US</desc>
+</wpt>
+<wpt lat="37.871094" lon="-122.292866">
+  <name>1814 San Pablo Ave Berkeley,</name>
+  <desc>1814 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.871984" lon="-122.269315">
+  <name>2058 University Ave Berkeley,</name>
+  <desc>2058 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891027" lon="-122.285625">
+  <name>1559 Solano Ave Berkeley,</name>
+  <desc>1559 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.789431" lon="-81.181355">
+  <name>4055 Hubbard St Berkeley,</name>
+  <desc>[301 - 499] Hubbard St, Beckley, Raleigh, WV, US</desc>
+</wpt>
+<wpt lat="37.858158" lon="-122.25316">
+  <name>2915 College Ave Berkeley,</name>
+  <desc>2915 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868624" lon="-122.25989">
+  <name>2470 Bancroft Way Berkeley,</name>
+  <desc>2470 Bancroft Way, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>6011 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.872699" lon="-122.293381">
+  <name>1722 San Pablo Ave Berkeley,</name>
+  <desc>1722 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.85809" lon="-122.267703">
+  <name>2801 Adeline St Berkeley,</name>
+  <desc>2801 Adeline St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.847281" lon="-122.27545">
+  <name>1600 63rd St Berkeley,</name>
+  <desc>1600 63rd St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.847075" lon="-122.271058">
+  <name>3347 Martin Luther King Jr Way Berkeley,</name>
+  <desc>3347 Martin Luther King Jr Way, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.846192" lon="-94.102457">
+  <name>1811 4th St Berkeley,</name>
+  <desc>1811 4th St, Berkley, Dallas, IA, US</desc>
+</wpt>
+<wpt lat="37.858309" lon="-122.253174">
+  <name>2901 College Ave Berkeley,</name>
+  <desc>2901 College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870243" lon="-122.300734">
+  <name>1791 4th St Berkeley,</name>
+  <desc>1791 4th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5933 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.87204" lon="-122.269531">
+  <name>2049 University Ave Berkeley,</name>
+  <desc>2049 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>6007 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.868641" lon="-122.29415">
+  <name>1000 University Ave Berkeley,</name>
+  <desc>1000 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.867207" lon="-122.25887">
+  <name>2386 Telegraph Ave Berkeley,</name>
+  <desc>2386 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.851005" lon="-122.252444">
+  <name>5521 College Ave Berkeley,</name>
+  <desc>[3201 - 3299] College Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.878099" lon="-122.29511">
+  <name>1418 San Pablo Ave Berkeley,</name>
+  <desc>1418 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848932" lon="-122.295351">
+  <name>5695 Bay St Berkeley,</name>
+  <desc>[699 - 699] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891008" lon="-122.285918">
+  <name>1551 Solano Ave Berkeley,</name>
+  <desc>1551 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.85843" lon="-122.243904">
+  <name>2938 Domingo Ave Berkeley,</name>
+  <desc>2938 Domingo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.867143" lon="-122.258858">
+  <name>2387 Telegraph Ave Berkeley,</name>
+  <desc>2387 Telegraph Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="41.846395" lon="-94.102457">
+  <name>1815 Fourth St Berkeley,</name>
+  <desc>1815 4th St, Berkley, Dallas, IA, US</desc>
+</wpt>
+<wpt lat="37.871324" lon="-122.268316">
+  <name>2036 Shattuck Ave Berkeley,</name>
+  <desc>2036 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.89077" lon="-122.299096">
+  <name>835 San Pablo Ave Berkeley,</name>
+  <desc>835 San Pablo Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.891267" lon="-122.281238">
+  <name>1745 Solano Ave Berkeley,</name>
+  <desc>1745 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848932" lon="-122.295351">
+  <name>5687 Bay St Berkeley,</name>
+  <desc>[699 - 699] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890989" lon="-122.286226">
+  <name>1545 Solano Ave Berkeley,</name>
+  <desc>1545 Solano Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.890817" lon="-122.289242">
+  <name>1404 Solano Ave Berkeley,</name>
+  <desc>1404 Solano Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.869095" lon="-122.292413">
+  <name>1085 University Ave Berkeley,</name>
+  <desc>1085 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848932" lon="-122.295351">
+  <name>5653 Bay St Berkeley,</name>
+  <desc>[699 - 699] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.876817" lon="-122.294561">
+  <name>1477 San Pablo Ave Berkeley,</name>
+  <desc>1477 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.862512" lon="-122.290094">
+  <name>2400 San Pablo Ave Berkeley,</name>
+  <desc>2400 San Pablo Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.870464" lon="-122.28106">
+  <name>1516 University Ave Berkeley,</name>
+  <desc>1516 University Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.881352" lon="-122.289633">
+  <name>1302 Gilman St Berkeley,</name>
+  <desc>1302 Gilman St, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.848932" lon="-122.295351">
+  <name>5671 Bay St Berkeley,</name>
+  <desc>[699 - 699] Bay St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.859682" lon="-122.267008">
+  <name>2721 Shattuck Ave Berkeley,</name>
+  <desc>2721 Shattuck Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.854409" lon="-122.270136">
+  <name>1955 Ashby Berkeley,</name>
+  <desc>1955 Ashby Ave, Berkeley, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.886094" lon="-122.293031">
+  <name>1039 Evelyn Ave Berkeley,</name>
+  <desc>1039 Evelyn Ave, Albany, Alameda, CA, US</desc>
+</wpt>
+<wpt lat="37.859848" lon="-122.292763">
+  <name>2547 8th St Berkeley,</name>
+  <desc>2547 8th St, Berkeley, Alameda, CA, US</desc>
+</wpt>
+</gpx>
