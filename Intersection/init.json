@@ -1,0 +1,7 @@
+[{
+  "behaviors": [
+    "create_roads.py",
+    "@hash/create_agents.js",
+    "@hash/remove_self.js"
+    ]
+}]
