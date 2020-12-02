@@ -1,6 +1,9 @@
 /**
  * Handles backworking trucks into their original locations in order to account for the
  * time it takes to get to and from a location.
+ *
+ *
+ * Similar to truck.js
  */
 const behavior = (state, context) => {
   const center_ll = context.globals().center_ll;
@@ -22,21 +25,21 @@ const behavior = (state, context) => {
     var lon2 = coords2[0];
     var lat2 = coords2[1];
 
-    var R = 6371; // km
+    var Radius_earth = 6371; // km
 
-    var x1 = lat2 - lat1;
-    var dLat = toRad(x1);
-    var x2 = lon2 - lon1;
-    var dLon = toRad(x2)
+    var deltalat = lat2 - lat1;
+    var dLat = toRad(deltalat);
+    var deltalong = lon2 - lon1;
+    var dLon = toRad(deltalong)
     var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
       Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
       Math.sin(dLon / 2) * Math.sin(dLon / 2);
-    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    var d = R * c;
+    var radians_travelled = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    var distance = Radius_earth * radians_travelled;
 
-    if(isMiles) d /= 1.60934;
+    if(isMiles) distance /= 1.60934;
 
-    return d;
+    return distance;
   }
 
   // Function to create path routing with constant speed
@@ -45,22 +48,22 @@ const behavior = (state, context) => {
       return lst
     } else{
       var new_lst = [lst[0]];
-      var i;
-      var j;
-      var temp;
+      var curPos; // current position in the list
+      var interPos; // current position in the list to create more steps between 0 and numInterpol
+      var numInterpol; // required number of new points to maintain constant speed
       var dx;
       var dy;
-      for (i = 0; i < lst.length - 1; i++) {
-        if (haversineDistance(lst[i], lst[i+1], true) < speed) {
-          new_lst.push(lst[i+1])
+      for (curPos = 0; curPos < lst.length - 1; curPos++) {
+        if (haversineDistance(lst[curPos], lst[curPos+1], true) < speed) {
+            new_lst.push(lst[curPos+1])
           } else {
-          temp = speed/haversineDistance(lst[i], lst[i+1], true);
-          dy = temp * (lst[i][0] - lst[i+1][0])
-          dx = temp * (lst[i][1] - lst[i+1][1])
-          for (j = 1; j < temp + 1; j++) {
-            new_lst.push([lst[i][0] + (dy * j), lst[i][1] + (dx * j)])
+          numInterpol = speed/haversineDistance(lst[curPos], lst[curPos+1], true);
+          dy = numInterpol * (lst[curPos][0] - lst[curPos+1][0])
+          dx = numInterpol * (lst[curPos][1] - lst[curPos+1][1])
+          for (interPos = 1; interPos < numInterpol + 1; interPos++) {
+            new_lst.push([lst[curPos][0] + (dy * interPos), lst[curPos][1] + (dx * interPos)])
           }
-          new_lst.push(lst[i+1])
+          new_lst.push(lst[curPos+1])
         }
         }
         return new_lst

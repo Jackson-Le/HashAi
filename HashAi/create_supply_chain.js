@@ -8,6 +8,7 @@ const behavior = (state, context) => {
       port_stock_1_capacity, manufacturers,
       port_stock_1_alarm_level } = context.globals();
 
+  // This function converts the long lats to positions on our 3D grid
   function ll_to_pos(ll) {
     pos_x = 10.0 * (ll[0] - center_ll[0])
     pos_y = 10.0 * (ll[1] - center_ll[1])
@@ -17,7 +18,7 @@ const behavior = (state, context) => {
 
   let agents = [];
 
-  // Create client cities
+  // Create client homes
   for (home in distributors) {
 
     agents.push({
@@ -36,7 +37,7 @@ const behavior = (state, context) => {
     })
   }
 
-  // Create manufacturers
+  // Create stores
   for (store in manufacturers) {
     agents.push({
     "agent_name": store,

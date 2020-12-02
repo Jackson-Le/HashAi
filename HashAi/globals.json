@@ -11,7 +11,7 @@
   "long_trip_cost": 20,
   "min_orders_per_day": 1,
   "max_orders_per_day": 10,
-  "mean_orders_per_day": 3,
+  "mean_orders_per_day": 2.893107344632771,
   "min_quantity": 1,
   "max_quantity": 12,
   "mean_quantity": 3,

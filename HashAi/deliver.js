@@ -22,21 +22,21 @@ const behavior = (state, context) => {
     var lon2 = coords2[0];
     var lat2 = coords2[1];
 
-    var R = 6371; // km
+    var Radius_earth = 6371; // km
 
-    var x1 = lat2 - lat1;
-    var dLat = toRad(x1);
-    var x2 = lon2 - lon1;
-    var dLon = toRad(x2)
+    var deltalat = lat2 - lat1;
+    var dLat = toRad(deltalat);
+    var deltalong = lon2 - lon1;
+    var dLon = toRad(deltalong)
     var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
       Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
       Math.sin(dLon / 2) * Math.sin(dLon / 2);
-    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    var d = R * c;
+    var radians_travelled = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    var distance = Radius_earth * radians_travelled;
 
-    if(isMiles) d /= 1.60934;
+    if(isMiles) distance /= 1.60934;
 
-    return d;
+    return distance;
   }
   // Gets the number of items left from the stocking location
   let stock = state.get("stock");

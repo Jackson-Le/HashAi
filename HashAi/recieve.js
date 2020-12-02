@@ -1,15 +1,13 @@
 /**
- * Function to handle order calls.
+ * Message handler for orders being sent out
  */
 const behavior = (state, context) => {
-  // place an order based on order_from and order_quantity
-  const order_quantity = state.get("order_quantity");
+  // Sends a message to the accountant about how much items were ordered
+  const delivered = context.messages()
+      .filter(m => m.type === "demand_")
+      .reduce((acc, msg) => msg.data.quantity + acc, 0);
 
-  if (order_quantity !== 0) {
-    state.addMessage(state.get("order_from"), "order", {
-      "quantity": order_quantity,
-      "name": state.get("agent_name")
-    })
-    state.set("order_quantity", 0)
-  }
+  // Tell the accountant agent how much was delivered
+  state.addMessage("accountant", "delivered", delivered)
+
 };
