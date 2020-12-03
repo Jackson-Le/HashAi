@@ -1,6 +1,0 @@
-[
-  {
-    "name": "creator",
-    "behaviors": ["create_supply_chain.js", "@hash/remove_self.js"]
-  }
-]
