@@ -1,0 +1,196 @@
+{
+  "outputs": {
+    "cost_per_ton1": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "cost_per_ton" },
+      { "op": "mean" }
+    ],
+    "capital_costs1": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "capital_costs" },
+      { "op": "mean" }
+    ],
+    "total_expenses1": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "total_delivery_cost" },
+      { "op": "mean" }
+    ],
+    "total_demand": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "total_demand" },
+      { "op": "mean" }
+    ],
+    "total_delivered": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "total_delivered" },
+      { "op": "mean" }
+    ],
+      "total_steps": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "total_steps" },
+      { "op": "mean" }
+    ],
+    "mean_stock1": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "mean_stock" },
+      { "op": "mean" }
+    ],
+    "cost_per_ton2": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant2"
+      },
+      { "op": "get", "field": "cost_per_ton" },
+      { "op": "mean" }
+    ],
+    "capital_costs2": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant2"
+      },
+      { "op": "get", "field": "capital_costs" },
+      { "op": "mean" }
+    ],
+    "total_expenses2": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant2"
+      },
+      { "op": "get", "field": "total_expenses" },
+      { "op": "mean" }
+    ],
+    "mean_stock2": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant2"
+      },
+      { "op": "get", "field": "mean_stock" },
+      { "op": "mean" }
+    ],
+    "num_trucks": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "total_trucks" },
+      { "op": "mean" }
+    ],
+    "demand_qty": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "order_quantity" },
+      { "op": "mean" }
+    ],
+    "speed_cars": [
+      {
+        "op": "filter",
+        "comparison": "eq",
+        "field": "agent_name",
+        "value": "accountant"
+      },
+      { "op": "get", "field": "speed_cars" },
+      { "op": "mean" }
+    ]
+  },
+  "Old": [
+    {
+      "title": "Cost Per Ton",
+      "timeseries": ["cost_per_ton1", "cost_per_ton2"],
+      "layout": { "width": "50%", "height": "50%"},
+      "position": { "x": "0%", "y": "0%"}
+    },
+    {
+      "title": "Capital Costs",
+      "timeseries": ["capital_costs1", "capital_costs2"],
+      "layout": { "width": "50%", "height": "50%"},
+      "position": { "x": "50%", "y": "0%"}
+    },
+    {
+      "title": "Total Delivery Cost",
+      "timeseries": ["total_expenses1", "total_expenses2"],
+      "layout": { "width": "50%", "height": "50%"},
+      "position": { "x": "0%", "y": "50%"}
+    },
+    {
+      "title": "Mean Stock",
+      "timeseries": ["mean_stock1", "mean_stock2"],
+      "layout": { "width": "50%", "height": "50%"},
+      "position": { "x": "50%", "y": "50%"}
+    }
+  ],
+  "plots": [
+    {
+      "title": "Number of Active Cars",
+      "timeseries": ["num_trucks"],
+      "layout": {"width": "50%", "height": "50%"},
+      "position": {"x": "0%", "y": "0%"}
+    },
+    {
+      "title": "Number of steps",
+      "timeseries": ["total_steps"],
+      "layout": {"width": "50%", "height": "50%"},
+      "position": {"x": "50%", "y": "0%"}
+    },
+    {
+      "title": "Average steps per car",
+      "timeseries": ["speed_cars"],
+      "layout": {"width": "50%", "height": "50%"},
+      "position": {"x": "0%", "y": "50%"}
+    },
+    {
+      "title": "Demand",
+      "timeseries": ["total_demand","total_delivered"],
+      "layout": {"width": "50%", "height": "50%"},
+      "position": {"x": "50%", "y": "50%"}
+    }
+  ]
+}
