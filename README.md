@@ -21,8 +21,11 @@ Project worked on by HASH.AI Berkeley team for Data-X for Fall 2020.
 Please use the following link for the website:
 http://hashaiproject.pythonanywhere.com/
 
-Please use the following link for the simulation:
+Please use the following link for the large scale delivery simulation:
 https://core.hash.ai/@jacksonle/demandtest_end/main
+
+Please use the following link for the intersection simulation:
+https://core.hash.ai/@mlm5/intersection-data-x/main
 
 Please check out our news release here:
 https://docs.google.com/document/d/e/2PACX-1vTLZXseiFM7tj_tnSY-vL8N2k3irDRTSqwzvapx51YUMizZS6UR5-f-nPptztD4gX5VgM--lDFkLTjR/pub
