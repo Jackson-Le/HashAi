@@ -1,18 +1,21 @@
+# On our simulation, this file will instantiate cars on certain starting points.
+# These cars will have their behavior and direction set in this file. 
+
 import random
 
 keys = {}
 
 def behavior(state, context):
+  # Instantiate some variables from the state and context.
   properties = context.globals()
   neighbors = context.neighbors()
-
   position = state.get("position")
-
   state.set("search_radius", 10)
 
+  # Maximum cars that can be generated.
   max_cars = properties["max_cars"]
 
-  # Collect current number of cars in the environment
+  # Collect current number of cars on the board.
   current_cars = list(filter(lambda n: "car.py" in n["behaviors"], neighbors)) # Check among the neighbors which one are cars
   car_num = len(current_cars)
 
@@ -28,11 +31,11 @@ def behavior(state, context):
       break
 
   # 50% chance of creating a new car if there are less than 10 cars currently in 
-  # the environment and no car is at the current position
+  # the environment and no car is at the current position. 
   if random.random() < 0.5 and car_num < max_cars and not car_at_position:
     velocity = [random.random(), 0] if position[1] == 0 else [0, random.random()]
     movement = "right" if (position[1] == 0 or position[1] == 10 or position[1]==20) else "up"
-
+    # Creates the new agent and sets its behavior.
     new_agent = {
       "position": position,
       "rgb": [random.randint(0, 255), random.randint(0, 255), random.randint(0,255)],
