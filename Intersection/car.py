@@ -1,10 +1,9 @@
-### ANALYSIS (1/2)
 from random import *
 keys = {}
 
 def behavior(state, context):
 
-  # CONTEXT/STATE
+  # Initialize data from current state and context
   neighbors = context.neighbors()
   movement = state.get("movement")
   position = state.get("position")
@@ -20,7 +19,8 @@ def behavior(state, context):
   # Acceleration
   acceleration = acceler(movement,cars_in_front_line)
 
-  # Get closest signal
+  # Get closest traffic light signal to get instructions for the car. 
+  # Possible signals are red or green
   signals = list(filter(lambda n: "signal.py" in n["behaviors"], neighbors))
   for signal in signals:
     if movement == "up" and signal["position"][1] == -1:
@@ -29,23 +29,22 @@ def behavior(state, context):
       state.set("signal_id", signal["agent_id"])
     if movement == "right" and signal["position"][0]!= -1:
       state.set("signal_id",signal["agent_id"])
-  # Get current status of current signal
+
+  # Get status of the current traffic light signal assigned to the car.
   signal = list(filter(lambda n: n["agent_id"] == state.get("signal_id"), neighbors))
-  #signal = sign(position,movement,neighbors)
-  #if len(signal):
-  #state.set("signal_id",signal["agent_id"])
-  if len(signal): #and (position[0] <= -1 or position[1] <= -1):
+  if len(signal):
     signal = signal[0]
     signal_color = signal["color"]
     dx = signal["position"][0] - position[0]
     dy = signal["position"][1] - position[1]
+    # If red --> decelerate, if green --> accelerate
     if signal_color == "red" and ((dx < 1 and dy == 0) or (dx == 0 and dy < 1)):
       acceleration = [-0.1, 0] if movement == "right" else [0, -0.1]
     elif signal_color == "green" and acceleration == [0,0]:
       acceleration = [0,0.1] if movement == "up" else [0.1,0]
 
-
-
+  # Updating the movement (right, up) and position of the car
+  # Cars can change position only on the "first road" on the x-axis, with a probability 0.1.
   if (((abs(position[1])<0.5 and movement == "up") or (abs(position[0])<0.5 and movement=="right")) and random.random()<0.1):
     if movement=="up":
       updated_movement,updated_position, updated_velocity = turn(movement,[position[0],0],velocity,acceleration)
@@ -56,21 +55,17 @@ def behavior(state, context):
     updated_position, updated_velocity = newPos(position,velocity,acceleration)
   state.set("velocity", updated_velocity)
   state.set("position", updated_position)
-  #Remove agent if car reaches end of the road - SEE LINE 54 for a replacement
-  """HOW TO ACCESS GLOBAL VAR??"""
+
+  #Remove agent if car reaches end of the road
   if updated_position[0] > 35 or updated_position[1] > 26:
     state.add_message("HASH", "remove_agent")
-
   return state
-
-
-
-
 
 
 ''' Functions '''
 
-def carsFrontLine(pos,mov,neighb):  # Check if there are cars in front of current agent
+# This function finds the cars in front of the agent that are on the same direction path.
+def carsFrontLine(pos,mov,neighb):  
   carsFrontLine = []
   if mov == "right":
     carsFrontLine = list(filter(lambda n: n["position"][0] > pos[0] and n["position"][1]==pos[1] and "car.py" in n["behaviors"], neighb))
@@ -78,6 +73,7 @@ def carsFrontLine(pos,mov,neighb):  # Check if there are cars in front of curren
     carsFrontLine = list(filter(lambda n: n["position"][1] > pos[1] and n["position"][0] == pos[0]and "car.py" in n["behaviors"], neighb))
   return carsFrontLine
 
+# This function finds the cars in front of the agent, independently of the direction path. 
 def carsFront(pos,mov,neighb):
   carsFront = []
   if mov == "right":
@@ -86,6 +82,7 @@ def carsFront(pos,mov,neighb):
     carsFront = list(filter(lambda n: n["position"][1] > pos[1] and "car.py" in n["behaviors"], neighb))
   return carsFront
 
+# Calculate acceleration
 def acceler(mov,carsF):
   acceleration = [0, 0]
   if len(carsF) > 0:
@@ -94,6 +91,7 @@ def acceler(mov,carsF):
     acceleration = [0.005, 0] if mov == "right" else [0, 0.005]
   return acceleration
 
+# Update position 
 def newPos(pos,vel,acc):
   vel[0]=max(vel[0]+acc[0],0)
   vel[1]=max(vel[1]+acc[1],0)
@@ -101,6 +99,7 @@ def newPos(pos,vel,acc):
   pos[1]+=vel[1]
   return pos,vel
 
+# Change the movement (right or up) of the car. 
 def turn(mov,pos,vel,acc):
   if mov == "right": 
     mov="up"
@@ -108,26 +107,3 @@ def turn(mov,pos,vel,acc):
     mov = "right"
   position,velocity = newPos(pos,[vel[1],vel[0]],[acc[1],acc[0]])
   return mov,position,velocity
-
-
-''' Tests '''
-
-#def sign(pos,mov,neighb):
-#  if mov=="right":
-#    signals = list(filter(lambda n: "signal.py" in n["behaviors"] and pos[0]<n["position"][0], neighb))
-#  else:
-#    signals = list(filter(lambda n: "signal.py" in n["behaviors"] and pos[1]<n["position"][1], neighb))
-#  dist=[(pos[0]-n["position"][0])**2+(pos[1]-n["position"][1])**2 for n in signals]
-#  if len(signals):
-#    signal = signals[dist.index(min(dist))]
-#  else: 
-#    signal=list(filter(lambda n: "signal.py" in n["behaviors"], neighb))
-#  return signal
-
-#  if len(cars_in_front) > len(cars_in_front_line):
-#    if acceleration!=[0,0]:
-#      if movement=="right":
-#        position[1]+=0.1
-#      else:
-#        position[0]+=0.1
-
