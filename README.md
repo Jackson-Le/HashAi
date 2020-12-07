@@ -10,11 +10,13 @@ Project worked on by HASH.AI Berkeley team for Data-X for Fall 2020.
 # What's in this repo?
 
 ### 2 IPython Notebooks
-  - for analysis of household statistics in Berkeley
-  - for web scraping key locations from Yelp in Berkeley
+  - for analysis of household statistics in Berkeley (Poisson Process discovery)
+  - for web scraping key locations from Yelp in Berkeley (Store / House locations for delivery)
 ### 2 Simulations
   - for intersection to intersection car interactions
   - for larger scale delivery routings in city of Berkeley
+  
+  Additional instructions on how to run can be found in their README folders.
 
 # Links
 
