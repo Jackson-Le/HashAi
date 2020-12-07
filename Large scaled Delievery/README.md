@@ -55,6 +55,7 @@ How to run simulation:
   5. Name new forked simulation
   6. Click Start Simulation (right side running man icon)
   7. Go to the "Geospatial" tab on the top right to view the simulation on a map.
+  7. Go to the "Plots" tab on the top right to view the real time simulated demand and delivery as well as delivery metrics.
   
   Note: Edit parameters listed above in `globals.json` to manipulate the simulation and test / visualize your new ideas!
   
