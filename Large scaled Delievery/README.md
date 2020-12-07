@@ -56,8 +56,9 @@ How to run simulation:
   6. Click Start Simulation (right side running man icon)
   7. Go to the "Geospatial" tab on the top right to view the simulation on a map.
   
-  Note: Edit parameters listed above in 'globals.json' to manipulate the simulation and test / visualize your new ideas!
-  Note: To move to a new city, run Yelp web scraping script and replace coordinates in 'globals.json'
+  Note: Edit parameters listed above in `globals.json` to manipulate the simulation and test / visualize your new ideas!
+  
+  Note: To move to a new city, run Yelp web scraping script and replace coordinates in `globals.json`
 
 ---
 
